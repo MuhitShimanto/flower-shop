@@ -11,20 +11,75 @@
       referrerpolicy="no-referrer"
     />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="./styles/output.css">
+    <link rel="stylesheet" href="./styles/style.init.css" />
     <title>Flower Shop</title>
   </head>
   <body class="bg-[#F5F8FF]">
-    <header class="max-w-96 my-0 mx-auto">
-      <nav class="max-w-96 flex justify-between items-center">
+    <header class="mt-7">
+      <nav class="mx-4 flex justify-between items-center">
         <div class="header-brand">
-            <img class="w-16" src="./assets/logo.png" alt="Brand Logo">
+          <img class="w-16" src="./assets/logo.png" alt="Brand Logo" />
         </div>
         <div class="header-menu flex items-center">
-            <i class="fa-solid fa-cart-shopping"></i>
-            <p class="inter-regular">Cart ($56)</p>
+          <i class="fa-solid fa-cart-shopping"></i>
+          <p class="inter-regular">Cart ($56)</p>
         </div>
       </nav>
+      <div class="hero-section flex flex-col mt-7 gap-7">
+        <div class="hero-text order-1 mx-4">
+          <h1 class="noto-serif-bold text-2xl">ALWAYS <span class="text-orange-400">FRESH<br />FLOWERS</span></h1>
+          <p class="text-4 text-gray-500">
+            Indulge your senses with the beauty and fragrance of our fresh
+            flower shop. From classic roses to exotic blooms, we offer a wide
+            variety of fresh flowers that are perfect for any occasion.
+          </p>
+        </div>
+        <img class="hero-image" src="./assets/hero-flower.png"></img>
+      </div>
     </header>
+    <main class="flex flex-col items-center mt-7 gap-36">
+      <div class="our-plants text-center">
+        <h1 class="section-title noto-serif-bold text-2xl"><span class="text-orange-500">Our</span> Plants</h1>
+        <p class="section-description text-gray-500 text-4 w-84">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+        <div class="plant-cards-container grid grid-cols-2 mt-7 gap-7">
+          <div class="card w-40 border border-orange-500">
+            <img class="w-full h-49 mb-7" src="./assets/bouquet-1.jpg" alt="Flower">
+            <h3 class="inter-medium text-4">Lily Blossom</h3>
+            <strong class="block inter-bold text-4">20 USD</strong>
+            <button class="w-full bg-orange-500 inter-semi-medium text-4 text-white mt-7 py-4">Add To Cart</button>
+          </div>
+          <div class="card w-40 border border-orange-500">
+            <img class="w-full h-49 mb-7" src="./assets/bouquet-2.jpg" alt="Flower">
+            <h3 class="inter-medium text-4">Lily Blossom</h3>
+            <strong class="block inter-bold text-4">20 USD</strong>
+            <button class="w-full bg-orange-500 inter-semi-medium text-4 text-white mt-7 py-4">Add To Cart</button>
+          </div>
+          <div class="card w-40 border border-orange-500">
+            <img class="w-full h-49 mb-7" src="./assets/bouquet-3.jpg" alt="Flower">
+            <h3 class="inter-medium text-4">Lily Blossom</h3>
+            <strong class="block inter-bold text-4">20 USD</strong>
+            <button class="w-full bg-orange-500 inter-semi-medium text-4 text-white mt-7 py-4">Add To Cart</button>
+          </div>
+          <div class="card w-40 border border-orange-500">
+            <img class="w-full h-49 mb-7" src="./assets/bouquet-4.jpg" alt="Flower">
+            <h3 class="inter-medium text-4">Lily Blossom</h3>
+            <strong class="block inter-bold text-4">20 USD</strong>
+            <button class="w-full bg-orange-500 inter-semi-medium text-4 text-white mt-7 py-4">Add To Cart</button>
+          </div>
+          <div class="card w-40 border border-orange-500">
+            <img class="w-full h-49 mb-7" src="./assets/bouquet-5.jpg" alt="Flower">
+            <h3 class="inter-medium text-4">Lily Blossom</h3>
+            <strong class="block inter-bold text-4">20 USD</strong>
+            <button class="w-full bg-orange-500 inter-semi-medium text-4 text-white mt-7 py-4">Add To Cart</button>
+          </div>
+          <div class="card w-40 border border-orange-500">
+            <img class="w-full h-49 mb-7" src="./assets/bouquet-6.jpg" alt="Flower">
+            <h3 class="inter-medium text-4">Lily Blossom</h3>
+            <strong class="block inter-bold text-4">20 USD</strong>
+            <button class="w-full bg-orange-500 inter-semi-medium text-4 text-white mt-7 py-4">Add To Cart</button>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
